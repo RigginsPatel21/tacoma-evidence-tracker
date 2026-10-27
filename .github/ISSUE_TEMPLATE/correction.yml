@@ -1,0 +1,51 @@
+name: Correction report
+description: Report a wrong entry or a newer manufacturer statement. Everything you write here is public.
+title: "Correction: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This report is public.** Anyone can see your GitHub username and everything you write, and search engines may index it.
+        Please don't include your name, email, phone number, location, VIN, or photos that show a licence plate. They aren't needed.
+        A correction is applied only after the manufacturer source you cite has been reopened and checked. Retailer listings and owner reports never change a status, but you can mention them.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry (product, vehicle, years and trim)
+      placeholder: "e.g. Diode Dynamics SS6 LED Fog Light Kit, Tacoma 2025, TRD Pro"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Manufacturer source link
+      description: The maker's own product page, fitment note, Q&A answer or official account post.
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: Exact wording from that source
+      description: Copy it word for word, including the question if it is a Q&A answer.
+    validations:
+      required: true
+  - type: input
+    id: seen
+    attributes:
+      label: Date you saw it
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included personal information (name, email, phone, location, VIN or plate).
+          required: true

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tacoma &amp; 4Runner Accessory Evidence Tracker</title>
+  <meta name="description" content="What Diode Dynamics and Baja Designs actually state about front-end lighting kits on each 2024-2026 Toyota Tacoma trim, with sources, dates and unresolved conflicts.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#results">Skip to results</a>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Independent, non-commercial evidence tracker</p>
+      <h1>Tacoma &amp; 4Runner Accessory Evidence Tracker</h1>
+      <p class="lede">What the manufacturers actually say about which trims each accessory works with, quoted, linked and dated. Where they say nothing, we say so.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="notice" aria-labelledby="read-first">
+      <h2 id="read-first">Read this first</h2>
+      <ul>
+        <li><strong>This is not a "will it fit" guarantee.</strong> Each row shows the <em>evidence status</em> of one combination of part, vehicle, years, trim and configuration.</li>
+        <li><strong>"Unverified" means the maker hasn't said either way.</strong> It is not a "does not fit" result; those are labelled "Manufacturer-confirmed: not compatible". Unverified entries are hidden at first so the maker's actual statements come first. Each one names the question that is still open.</li>
+        <li>Statuses come from the manufacturer's own pages: listings, fitment notes and Q&amp;A answers. Retailer listings that disagree with the manufacturer are shown as warnings and never change a status.</li>
+        <li><strong>Confirm fitment with the manufacturer before you buy or install anything.</strong> Pages change; every source shows the date it was last checked.</li>
+      </ul>
+      <p class="scope" id="scope-text"></p>
+    </section>
+
+    <section aria-labelledby="legend-h">
+      <h2 id="legend-h">Evidence labels</h2>
+      <dl class="legend" id="legend"></dl>
+    </section>
+
+    <section aria-labelledby="filters-h" class="filters-section">
+      <h2 id="filters-h">Find an entry</h2>
+      <form id="filters" class="filters" role="search" onsubmit="return false">
+        <div class="field field-wide">
+          <label for="f-q">Search brand, product or part number</label>
+          <input id="f-q" name="q" type="search" autocomplete="off" placeholder="e.g. SS6, DD8057, Baja">
+        </div>
+        <div class="field">
+          <label for="f-vehicle">Vehicle</label>
+          <select id="f-vehicle" name="vehicle"></select>
+        </div>
+        <div class="field">
+          <label for="f-year">Model year</label>
+          <select id="f-year" name="year"></select>
+        </div>
+        <div class="field">
+          <label for="f-trim">Trim</label>
+          <select id="f-trim" name="trim"></select>
+        </div>
+        <div class="field">
+          <label for="f-category">Accessory category</label>
+          <select id="f-category" name="category"></select>
+        </div>
+        <div class="field">
+          <label for="f-status">Evidence status</label>
+          <select id="f-status" name="status"></select>
+        </div>
+        <div class="field field-actions">
+          <button type="button" id="f-reset" class="btn-secondary">Clear filters</button>
+        </div>
+      </form>
+      <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+      <p id="hidden-note" class="hidden-note" hidden><span id="hidden-text"></span> <button type="button" id="show-unverified" class="btn-secondary">Show unverified entries too</button></p>
+    </section>
+
+    <section id="results" aria-label="Results" tabindex="-1">
+      <div class="table-wrap">
+        <table class="results">
+          <caption class="visually-hidden">Accessory evidence entries matching the filters</caption>
+          <thead>
+            <tr>
+              <th scope="col">Accessory and part numbers</th>
+              <th scope="col">Vehicle and years</th>
+              <th scope="col">Trim and configuration</th>
+              <th scope="col">Evidence status</th>
+              <th scope="col">What the evidence says</th>
+              <th scope="col"><span class="visually-hidden">Sources</span></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <p id="empty" class="empty" hidden><span id="empty-text"></span></p>
+    </section>
+
+    <section aria-labelledby="not-covered-h">
+      <h2 id="not-covered-h">Not covered yet, and why</h2>
+      <ul id="not-covered" class="plain-list"></ul>
+    </section>
+
+    <section aria-labelledby="method-h">
+      <h2 id="method-h">How entries are graded</h2>
+      <ul class="plain-list">
+        <li><strong>Manufacturer-confirmed</strong> only when the maker's current page names the exact trim (or excludes it with an explicit "only" or "will NOT work" statement).</li>
+        <li><strong>Condition-dependent</strong> when the maker states a requirement for this exact trim, such as factory fog lamps. A requirement stated only for the vehicle in general, or for a different trim, is recorded as Unverified with the requirement shown.</li>
+        <li><strong>Conflicting</strong> when credible sources disagree, including two pages from the same maker that imply opposite answers.</li>
+        <li><strong>Unverified</strong> for everything else. That includes a maker's generic "Fits Tacoma 2024-2026" line, hedged answers ("should fit", "not tested yet"), and answers that address wiring rather than fit.</li>
+        <li>Owner reports and retailer fitment tables are never used to set a status.</li>
+        <li>Nothing is carried across vehicles or years: a Tacoma statement says nothing about a 4Runner, and an answer about a 2025 truck says nothing about 2024 or 2026, unless the maker says so.</li>
+        <li>A maker's statement must address <em>fitment</em>. Answers about wiring, switches or harness length are shown, but they never confirm fit.</li>
+        <li>Entries marked "Under review" carry a label that a reasonable reader could grade differently. The note explains why.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="corrections-h" class="corrections">
+      <h2 id="corrections-h">Report a correction</h2>
+      <p>Found a wrong entry, or a newer manufacturer statement? Send the details below. <strong>Please don't include your name, email, phone, location or vehicle VIN</strong>; they aren't needed. A correction is applied only after the cited manufacturer source has been reopened and checked.</p>
+      <p id="correction-link-text"></p>
+      <label for="correction-template">Copy this template</label>
+      <textarea id="correction-template" rows="7" readonly>Entry (product + vehicle + trim):
+What is wrong or missing:
+Manufacturer source link (product page, fitment note or Q&A):
+Exact wording from that source:
+Date you saw it:</textarea>
+      <button type="button" id="copy-template" class="btn-secondary">Copy template</button>
+      <span id="copy-status" role="status" aria-live="polite"></span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Disclaimer.</strong> This tracker is informational only. It summarises public manufacturer statements as of the dates shown and may be out of date or incomplete. It is not affiliated with Toyota, Diode Dynamics, Baja Designs or any retailer. Product and vehicle names are trademarks of their owners. Always confirm fitment with the manufacturer before purchasing or installing parts.</p>
+      <p><strong>Privacy.</strong> This page sets no cookies and runs no analytics or third-party scripts. If it is hosted on GitHub Pages, GitHub's servers record visitors' IP addresses for security, under GitHub's own policies.</p>
+      <p>No ads, no affiliate links, nothing for sale. Data last reviewed <span id="last-reviewed"></span>. Version <span id="version"></span>.</p>
+    </div>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="dialog-inner">
+      <div class="dialog-head">
+        <h2 id="detail-title"></h2>
+        <button type="button" class="btn-close" id="detail-close" aria-label="Close details">Close</button>
+      </div>
+      <div id="detail-body"></div>
+    </div>
+  </dialog>
+
+  <noscript><p class="wrap">This tracker needs JavaScript to filter entries. The raw data is in <a href="data/tracker.json">data/tracker.json</a>.</p></noscript>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

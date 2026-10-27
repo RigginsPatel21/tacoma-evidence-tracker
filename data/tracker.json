@@ -1,0 +1,1224 @@
+{
+  "meta": {
+    "title": "Tacoma & 4Runner Accessory Evidence Tracker",
+    "version": "0.3.1-prototype",
+    "lastReviewed": "2026-10-19",
+    "scope": "Front-end lighting kits from Diode Dynamics and Baja Designs, 2024-2026 Toyota Tacoma, plus the two 4Runner statements those makers publish on the same pages.",
+    "correctionUrl": "https://github.com/RigginsPatel21/tacoma-evidence-tracker/issues/new?template=correction.yml",
+    "vehicles": {
+      "Toyota Tacoma (4th gen)": {
+        "years": [
+          2024,
+          2025,
+          2026
+        ],
+        "trims": [
+          "SR",
+          "SR5",
+          "TRD PreRunner",
+          "TRD Sport",
+          "TRD Off-Road",
+          "Limited",
+          "TRD Pro",
+          "Trailhunter"
+        ]
+      },
+      "Toyota 4Runner (6th gen)": {
+        "years": [
+          2025,
+          2026
+        ],
+        "trims": [
+          "Trim not stated"
+        ]
+      }
+    },
+    "auditedOn": "2026-10-19"
+  },
+  "sources": {
+    "DD-SS6": {
+      "publisher": "Diode Dynamics",
+      "type": "manufacturer",
+      "title": "SS6 LED Fog Light Kit for 2024-2026 Toyota Tacoma (product page, fitment note and Q&A)",
+      "url": "https://www.diodedynamics.com/ss6-led-fog-light-kit-for-2024-2026-toyota-tacoma.html",
+      "checked": "2026-10-19"
+    },
+    "DD-SS6-FORUM": {
+      "publisher": "Diode Dynamics (manufacturer's sponsor account on Tacoma4G)",
+      "type": "manufacturer",
+      "title": "NEW! SS6 LED Fog Light Kit | Diode Dynamics (forum thread started by the maker)",
+      "url": "https://www.tacoma4g.com/forum/threads/new-ss6-led-fog-light-kit-diode-dynamics.18561/",
+      "checked": "2026-10-19"
+    },
+    "DD-FORM": {
+      "publisher": "Diode Dynamics",
+      "type": "manufacturer",
+      "title": "2024-2026 Toyota Tacoma LED Fog Lights (pair) - Form Lighting (product page and Q&A)",
+      "url": "https://www.diodedynamics.com/2024-2026-toyota-tacoma-led-fog-lights-pair.html",
+      "checked": "2026-10-19"
+    },
+    "DD-DITCH": {
+      "publisher": "Diode Dynamics",
+      "type": "manufacturer",
+      "title": "Stage Series Backlit Ditch Light Kit for 2024-2026 Toyota Tacoma (product page and Q&A)",
+      "url": "https://www.diodedynamics.com/stage-series-backlit-ditch-light-kit-for-2024-2026-toyota-tacoma.html",
+      "checked": "2026-10-19"
+    },
+    "DD-GRILLE": {
+      "publisher": "Diode Dynamics",
+      "type": "manufacturer",
+      "title": "TRD Pro Grille Light Bar Kit for 2024+ Toyota Tacoma (product page and Q&A)",
+      "url": "https://www.diodedynamics.com/trd-pro-grille-lightbar-kit-for-2024-2026-toyota-tacoma.html",
+      "checked": "2026-10-19"
+    },
+    "DD-SS5": {
+      "publisher": "Diode Dynamics",
+      "type": "manufacturer",
+      "title": "SS5 Grille CrossLink Lightbar Kit for 2024-2026 Toyota Tacoma (product page and Q&A)",
+      "url": "https://www.diodedynamics.com/ss5-grille-crosslink-lightbar-kit-for-2024-2026-toyota-tacoma.html",
+      "checked": "2026-10-19"
+    },
+    "BD-POCKET": {
+      "publisher": "Baja Designs",
+      "type": "manufacturer",
+      "title": "Toyota S2 Sport Dual Fog Pocket Light Kit - Toyota 2024-2026 Tacoma",
+      "url": "https://www.bajadesigns.com/products/toyota-s2-sport-dual-fog-pocket-light-kit-toyota-2024-on-tacoma/",
+      "checked": "2026-10-19"
+    },
+    "BD-SAE": {
+      "publisher": "Baja Designs",
+      "type": "manufacturer",
+      "title": "Toyota S2 SAE OEM Fog Light Replacement Kit - Toyota 2024-2026 Tacoma",
+      "url": "https://www.bajadesigns.com/products/toyota-s2-sae-oem-fog-light-replacement-kit-toyota-2024-on-tacoma/",
+      "checked": "2026-10-19"
+    },
+    "BD-SPORT-PRO": {
+      "publisher": "Baja Designs",
+      "type": "manufacturer",
+      "title": "S2 Sport OEM Fog Light Replacement Kit - 2024-2026 Toyota Tacoma Pro/Trailhunter",
+      "url": "https://www.bajadesigns.com/products/s2-sport-oem-fog-light-replacement-kit-2024-on-toyota-tacoma-note-trd-pro-trailhunter/",
+      "checked": "2026-10-19"
+    },
+    "BD-SAE-PRO": {
+      "publisher": "Baja Designs",
+      "type": "manufacturer",
+      "title": "S2 SAE OEM Fog Light Replacement Kit - 2024-2026 Toyota Tacoma Pro/Trailhunter",
+      "url": "https://www.bajadesigns.com/products/s2-sae-oem-fog-light-replacement-kit-2024-on-toyota-tacoma-note-trd-pro-trailhunter/",
+      "checked": "2026-10-19"
+    },
+    "BD-GRILLE-CONV": {
+      "publisher": "Baja Designs",
+      "type": "manufacturer",
+      "title": "Toyota S8 10\" Light Bar / S2 Pro TRD Pro Grille Conversion Light Kit - 2024-2026 Toyota Tacoma",
+      "url": "https://www.bajadesigns.com/products/toyota-s8-10-light-bar-s2-pro-trd-pro-grille-conversion-light-kit-2024-on-toyota-tacoma/",
+      "checked": "2026-10-19"
+    },
+    "BD-GRILLE-PRO": {
+      "publisher": "Baja Designs",
+      "type": "manufacturer",
+      "title": "S8 10-inch/S2 Pro Grille Light Kit - 2024-2026 Toyota Tacoma; TRD Pro",
+      "url": "https://www.bajadesigns.com/products/s8-10-inch-s2-pro-grille-light-kit-2024-on-toyota-tacoma-trd-pro/",
+      "checked": "2026-10-19"
+    },
+    "RT-SPPOWER": {
+      "publisher": "sp-power (retailer)",
+      "type": "retailer",
+      "title": "Diode Dynamics 2024 Toyota Tacoma SS6 LED Fog Light Kit (fitment table)",
+      "url": "https://store.sp-power.com/products/diode-dynamics-2024-toyota-tacoma-ss6-led-fog-light-kit-amber-wide",
+      "checked": "2026-10-19"
+    },
+    "RT-TURNIN": {
+      "publisher": "Turn In Concepts (retailer)",
+      "type": "retailer",
+      "title": "Diode Dynamics 2024-2026 Toyota Tacoma TRD Grille Lightbar (fitment table)",
+      "url": "https://turninconcepts.com/products/diode-dynamics-2024-2026-toyota-tacoma-trd-grille-lightbar-ss20-pro-white-driving-6000k",
+      "checked": "2026-10-19"
+    },
+    "RT-COMPLETEWEB": {
+      "publisher": "Complete Web Solutions (retailer)",
+      "type": "retailer",
+      "title": "2024-Present Toyota Tacoma S2 Sport OEM Fog Light Replacement Kit - Baja Designs (fitment list)",
+      "url": "https://www.completewebsol.com/product/2024-present-toyota-tacoma-s2-sport-oem-fog-light-replacement-kit-baja-designs",
+      "checked": "2026-10-19"
+    },
+    "RT-OVERLANDKITTED": {
+      "publisher": "Overland Kitted (retailer)",
+      "type": "retailer",
+      "title": "Baja Designs S8/S2 Pro 10in Grille Kit - 2024+ Toyota Tacoma (specifications)",
+      "url": "https://overlandkitted.com/products/baja-designs-2024-toyota-tacoma-incl-trd-pro-10in-s8-s2-pro-grille-kit-baja-amber",
+      "checked": "2026-10-19"
+    },
+    "DD-DITCH-4R": {
+      "publisher": "Diode Dynamics",
+      "type": "manufacturer",
+      "title": "Stage Series Backlit Ditch Light Kit for 2025-2026 Toyota 4Runner (product page)",
+      "url": "https://www.diodedynamics.com/stage-series-backlit-ditch-light-kit-for-2026-toyota-4runner.html",
+      "checked": "2026-10-19"
+    }
+  },
+  "products": [
+    {
+      "id": "dd-ss6-fog",
+      "brand": "Diode Dynamics",
+      "name": "SS6 LED Fog Light Kit",
+      "category": "Fog lights",
+      "partNumbers": [
+        "DD8843",
+        "DD8577",
+        "DD8579",
+        "DD8844",
+        "DD8578",
+        "DD8580",
+        "DD8842 (bracket kit)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "DD-SS6",
+      "productNotes": [
+        "Maker note: \"This kit is not compatible with the Trail Hunter trim or models equipped with Rigid Dual Color Fog Lights.\" This exclusion applies to any truck with those fog lights, whatever the trim.",
+        "Maker forum post: \"This kit is for trucks equipped with fog lights from the factory.\""
+      ],
+      "cells": {
+        "SR": {
+          "status": "condition",
+          "claim": "The maker says the kit is for trucks with factory fog lights and that the SR has none from the factory.",
+          "condition": "Requires factory fog lamps. A factory SR does not meet this: Diode says \"The SR does not come equipped from the factory with fog lamps\" and that fog lamps on an SR would be an add-on kit it does not offer \"at this time\".",
+          "evidence": [
+            {
+              "source": "DD-SS6-FORUM",
+              "location": "Opening post by the maker's account, 27 Jan 2026",
+              "quote": "This kit is for trucks equipped with fog lights from the factory.",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "condition",
+              "complete": true
+            },
+            {
+              "source": "DD-SS6-FORUM",
+              "location": "Maker reply, 29 Jan 2026, to an owner's warning that SR versions \"may not fit without extensive bumper trim removal/cutting\"",
+              "quote": "The SR does not come equipped from the factory with fog lamps. That would be an add-on kit that we do not advertise or offer at this time.",
+              "addresses": "fitment",
+              "trims": [
+                "SR"
+              ],
+              "polarity": "condition",
+              "complete": true
+            },
+            {
+              "source": "DD-SS6-FORUM",
+              "location": "Maker reply, 2 Feb 2026, to an owner willing to cut the bumper if a kit with a harness existed",
+              "quote": "There is no add-on kit from our team as a heads-up.",
+              "addresses": "other",
+              "trims": [
+                "SR"
+              ],
+              "polarity": "info",
+              "complete": true
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-SPPOWER",
+              "claim": "Fitment table lists SR among 2024-2026 Tacoma submodels."
+            }
+          ],
+          "review": "Diode has not said outright whether the SS6 is compatible with the SR, or whether an SR with fog lamps added later meets the requirement. Its product-page fitment note excludes the Trailhunter and Rigid dual-colour fogs but does not mention the SR. Until Diode answers either point, this stays Condition-dependent, not 'not compatible'."
+        },
+        "TRD Off-Road": {
+          "status": "unverified",
+          "claim": "The maker answered a wiring question from a 2025 TRD Off-Road owner but did not state trim fitment.",
+          "evidence": [
+            {
+              "source": "DD-SS6",
+              "location": "Q&A, about 6 months before 19 Oct 2026",
+              "quote": "This kit will have a wiring harness that goes from the factory fog light plug directly to the light bar, which controls the main beam.",
+              "addresses": "wiring",
+              "trims": [
+                "TRD Off-Road"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "info",
+              "complete": true
+            }
+          ],
+          "caveat": "Downgraded from 'confirmed' in the 15 Oct pilot. Re-reading the answer on 19 Oct showed it addresses wiring only.",
+          "gap": "Does the kit fit the TRD Off-Road's fog openings? Diode's only answer for this trim is about wiring."
+        },
+        "TRD Pro": {
+          "status": "mfr-no",
+          "claim": "For the 2025 TRD Pro, the maker says the lights cannot be fully installed because the bumper openings are slimmer.",
+          "evidence": [
+            {
+              "source": "DD-SS6",
+              "location": "Q&A answer to a question about the 2025 TRD Pro with single-colour Rigid fogs, about 5 months before 19 Oct 2026",
+              "quote": "While the single-color Rigid fogs do use the same connections and mounting points, the physical bumper openings are slimmer and don't allow our lights to be fully installed",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-SPPOWER",
+              "claim": "Fitment table lists TRD Pro among 2024-2026 Tacoma submodels."
+            }
+          ],
+          "years": [
+            2025
+          ]
+        },
+        "Trailhunter": {
+          "status": "mfr-no",
+          "claim": "The maker states the kit is not compatible with the Trailhunter trim.",
+          "evidence": [
+            {
+              "source": "DD-SS6",
+              "location": "Fitment note on the product page",
+              "quote": "This kit is not compatible with the Trail Hunter trim or models equipped with Rigid Dual Color Fog Lights.",
+              "addresses": "fitment",
+              "trims": [
+                "Trailhunter"
+              ],
+              "polarity": "no",
+              "complete": true
+            },
+            {
+              "source": "DD-SS6",
+              "location": "Q&A, about 8 months before 19 Oct 2026",
+              "quote": "Unfortunately at this time, there are no immediate plans to offer a solution for those trims",
+              "addresses": "other",
+              "trims": [
+                "Trailhunter"
+              ],
+              "polarity": "info",
+              "complete": false
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-SPPOWER",
+              "claim": "Fitment table lists Trailhunter among 2024-2026 Tacoma submodels."
+            }
+          ]
+        }
+      },
+      "extraEntries": [
+        {
+          "vehicle": "Toyota Tacoma (4th gen)",
+          "years": [
+            2024,
+            2026
+          ],
+          "trim": "TRD Pro",
+          "configuration": "Any / not specified by maker",
+          "status": "unverified",
+          "claim": "Not confirmed for 2024 or 2026 TRD Pro models. The maker's answer about the slimmer bumper openings concerned a 2025 TRD Pro.",
+          "evidence": [
+            {
+              "source": "DD-SS6",
+              "location": "Q&A answer about the 2025 TRD Pro (shown for context)",
+              "quote": "While the single-color Rigid fogs do use the same connections and mounting points, the physical bumper openings are slimmer and don't allow our lights to be fully installed",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-SPPOWER",
+              "claim": "Fitment table lists TRD Pro among 2024-2026 Tacoma submodels."
+            }
+          ],
+          "caveat": "Split out in the 19 Oct 2026 audit: the evidence covers 2025 only.",
+          "gap": "Are the 2024 and 2026 TRD Pro bumper openings the same as the 2025's? Diode answered only for 2025."
+        }
+      ],
+      "defaultGap": "Diode hasn't named this trim either way. It does exclude the Trailhunter, trucks with Rigid dual-colour fogs, and (for 2025) the TRD Pro, whose bumper openings it says are slimmer."
+    },
+    {
+      "id": "dd-form-fog",
+      "brand": "Diode Dynamics",
+      "name": "Form Lighting Type T3 LED Fog Lights (pair)",
+      "category": "Fog lights",
+      "partNumbers": [
+        "FL0082 (white)",
+        "FL0083 (yellow)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "DD-FORM",
+      "productNotes": [
+        "The browser title says 2024-2025; the page heading and fitment section say 2024-2026.",
+        "The light's own name, \"Type T3 Tacoma/Tundra/4Runner/Sequoia\", describes the light type. It is not shown here as a 4Runner fitment statement for this Tacoma kit."
+      ],
+      "cells": {
+        "SR": {
+          "status": "mfr-no",
+          "claim": "The maker states these fog lights are not compatible with SR trim levels.",
+          "evidence": [
+            {
+              "source": "DD-FORM",
+              "location": "Fitment note on the product page",
+              "quote": "NOTE: These fog lights are not compatible with SR trim levels.",
+              "addresses": "fitment",
+              "trims": [
+                "SR"
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ]
+        },
+        "SR5": {
+          "status": "unverified",
+          "claim": "An owner asked about an SR5 without factory fog lamps. The maker's answer addressed the SR, not the SR5.",
+          "evidence": [
+            {
+              "source": "DD-FORM",
+              "location": "Q&A, about 6 months before 19 Oct 2026",
+              "quote": "Unfortunately, these fog lights are not compatible with SR trim levels at this time - sorry!",
+              "addresses": "fitment",
+              "trims": [
+                "SR"
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ],
+          "caveat": "The reply says \"SR trim levels\" (plural) in answer to an SR5 question. It is not treated as covering the SR5.",
+          "gap": "Does the kit fit an SR5, with or without factory fog lamps? Diode's reply to an SR5 owner named the SR only."
+        }
+      },
+      "defaultGap": "Diode excludes the SR on this page but hasn't named this trim either way."
+    },
+    {
+      "id": "dd-ditch",
+      "brand": "Diode Dynamics",
+      "name": "Stage Series Backlit Ditch Light Kit",
+      "category": "Ditch lights",
+      "partNumbers": [
+        "DD7934-DD7937 (C2 2.0)",
+        "DD7938-DD7941 (SS3)",
+        "DD7933P (bracket kit)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "DD-DITCH",
+      "productNotes": [
+        "The browser title says 2024-2025; the page heading and fitment section say 2024-2026.",
+        "\"Sport\" and \"Pro\" in the part names are pod power levels, not vehicle trims.",
+        "Maker Q&A (about 3 months before 19 Oct 2026): the brackets do not fit a 2023 Tacoma: \"No, you will need the mounts for a 2023 Tacoma.\""
+      ],
+      "cells": {
+        "TRD Off-Road|i-FORCE MAX hybrid": {
+          "trim": "TRD Off-Road",
+          "configuration": "i-FORCE MAX hybrid",
+          "status": "unverified",
+          "claim": "The maker answered a wiring question (wire length to the battery) for a TRD Off-Road hybrid. Fitment was not addressed.",
+          "evidence": [
+            {
+              "source": "DD-DITCH",
+              "location": "Q&A, about 11 months before 19 Oct 2026",
+              "quote": "We would recommend utilizing our included wiring harness, as it will have plenty of length to get power from the positive terminal post, which will be within the engine bay (even though the battery is in the cab).",
+              "addresses": "wiring",
+              "trims": [
+                "TRD Off-Road"
+              ],
+              "polarity": "info",
+              "complete": true
+            }
+          ],
+          "caveat": "Downgraded in the 19 Oct 2026 audit: the source addresses wiring, not fitment.",
+          "gap": "Does the kit fit the hybrid TRD Off-Road? Diode's answer was about wire length to the battery, not fit."
+        },
+        "Trailhunter": {
+          "status": "unverified",
+          "claim": "The maker states it has not tested the kit on a 2025 Trailhunter.",
+          "evidence": [
+            {
+              "source": "DD-DITCH",
+              "location": "Q&A, about 1 year before 19 Oct 2026",
+              "quote": "We have not tested the kit on a '25 Trailhunter just yet. However, we have not had any reports of incompatibility with that trim level either.",
+              "addresses": "fitment",
+              "trims": [
+                "Trailhunter"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "untested",
+              "complete": true
+            }
+          ],
+          "caveat": "\"No reports of incompatibility\" is not a fitment confirmation.",
+          "gap": "Does the kit fit the Trailhunter? Diode said it had not tested a 2025 Trailhunter and has said nothing about 2024 or 2026."
+        }
+      },
+      "extraEntries": [
+        {
+          "vehicle": "Toyota 4Runner (6th gen)",
+          "years": [
+            2025,
+            2026
+          ],
+          "trim": "Trim not stated",
+          "configuration": "Any / not specified by maker",
+          "status": "unverified",
+          "claim": "Diode's own 4Runner page lists this kit (same part numbers) for the 2025-2026 4Runner. The fitment is vehicle-level: no 4Runner trim is named.",
+          "evidence": [
+            {
+              "source": "DD-DITCH-4R",
+              "location": "Fitment section of the 4Runner product page",
+              "quote": "Fitment lists Make: Toyota, Model: 4Runner, Years: 2025, 2026; no trim is named.",
+              "paraphrase": true
+            },
+            {
+              "source": "DD-DITCH",
+              "location": "Q&A on the Tacoma page, about 1 year 3 months before 19 Oct 2026 (question: \"Does this work on the 2025 4Runner for trims that include AUX switches?\")",
+              "quote": "Absolutely! The included wiring harness will have some wiring that gives you the option to tie into factory upfitter switches for control.",
+              "addresses": "wiring",
+              "trims": [
+                "Trim not stated"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "info",
+              "complete": true
+            },
+            {
+              "source": "DD-DITCH",
+              "location": "Part number list",
+              "quote": "Stage Series Ditch Light Bracket Kit for Toyota Tacoma/4Runner",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "info",
+              "complete": true
+            }
+          ],
+          "caveat": "Changed in the 19 Oct 2026 audit. It was 'Condition-dependent' on a Q&A answer; Diode's dedicated 4Runner page (found during the value audit) is the primary source. Vehicle-level fitment is not treated as trim-level confirmation, as for every Tacoma entry.",
+          "gap": "Does the kit fit every 2025-2026 4Runner trim? Diode's 4Runner page names the vehicle and years only."
+        }
+      ],
+      "defaultGap": "Diode lists the Tacoma 2024-2026 without naming any trim. Its only trim answers are \"not tested\" (2025 Trailhunter) and a wiring answer (TRD Off-Road hybrid)."
+    },
+    {
+      "id": "dd-trd-grille",
+      "brand": "Diode Dynamics",
+      "name": "TRD Pro Grille Light Bar Kit",
+      "category": "Grille light bars",
+      "partNumbers": [
+        "DD8057 (bracket kit)",
+        "DD8058-DD8065 (complete kits)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "DD-GRILLE",
+      "defaultClaim": "The maker's fitment section lists Toyota Tacoma 2024-2026 and names no trims. For grilles without a light-bar opening, see the condition on the other trims.",
+      "productNotes": [
+        "Official inconsistency: the overview says the brackets \"mount a 30-inch LED Light Bar\", but the kit contents list \"One (1) SS20 Standard LED Light Bar\".",
+        "The maker states the kit was \"confirmed for OEM grilles only\" and it \"cannot confirm fitment on an aftermarket grille\".",
+        "On a TRD Pro, the maker says the included harness and a new switch must be used: \"The factory switch cannot be used to control this light bar.\""
+      ],
+      "cells": {
+        "SR": {
+          "ref": "needs-pro-grille"
+        },
+        "SR5": {
+          "ref": "needs-pro-grille"
+        },
+        "TRD PreRunner": {
+          "ref": "needs-pro-grille"
+        },
+        "TRD Off-Road": {
+          "ref": "needs-pro-grille"
+        },
+        "Limited": {
+          "ref": "needs-pro-grille"
+        },
+        "TRD Sport": {
+          "status": "mfr-no",
+          "claim": "With the factory TRD Sport grille: not compatible. The grille lacks the mounting provisions and opening.",
+          "condition": "The maker separately says a TRD Pro grille from Toyota is needed if your grille has no light-bar opening.",
+          "evidence": [
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 9 months before 19 Oct 2026",
+              "quote": "No, the TRD Sport grille does not have the mounting provisions or opening for the Lightbar",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Sport"
+              ],
+              "polarity": "no",
+              "complete": true
+            },
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 6 months before 19 Oct 2026",
+              "quote": "If you do not have this opening, you would need to purchase the TRD Pro grille from Toyota.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Sport"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "condition",
+              "complete": true
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-TURNIN",
+              "claim": "Fitment table lists TRD Sport (and every other 2024-2026 submodel)."
+            }
+          ]
+        },
+        "TRD Pro": {
+          "status": "mfr-yes",
+          "claim": "The maker states the kit includes everything needed to install it on a TRD Pro grille.",
+          "condition": "Use the included harness with the new switch; the factory switch cannot control this light bar.",
+          "evidence": [
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 2 months before 19 Oct 2026",
+              "quote": "Yes, this kit will come with everything needed to install the kit onto your TRD Pro grill!",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "yes",
+              "complete": true
+            },
+            {
+              "source": "DD-GRILLE",
+              "location": "Fitment note on the product page",
+              "quote": "The factory switch cannot be used to control this light bar.",
+              "addresses": "wiring",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "info",
+              "complete": true
+            }
+          ]
+        },
+        "Trailhunter": {
+          "status": "unverified",
+          "claim": "The maker answered a 2026 Trailhunter wiring question (an OEM aux adapter is included) but did not state grille fitment.",
+          "evidence": [
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 3 months before 19 Oct 2026",
+              "quote": "Yes, this kit will come with an OEM aux adapter, so you can unplug our switch and route this to the factory wiring.",
+              "addresses": "wiring",
+              "trims": [
+                "Trailhunter"
+              ],
+              "years": [
+                2026
+              ],
+              "polarity": "info",
+              "complete": true
+            }
+          ],
+          "gap": "Does the Trailhunter grille take this light bar? Diode answered a wiring question only."
+        }
+      },
+      "refs": {
+        "needs-pro-grille": {
+          "status": "unverified",
+          "claim": "Not confirmed for this trim. The maker's grille requirement (an OEM grille with a light-bar opening, like the TRD Pro grille) was stated in answers about a 2025 TRD Sport and an aftermarket grille; this trim is not named.",
+          "evidence": [
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 6 months before 19 Oct 2026",
+              "quote": "You would need to have the style grille like in the listing photos with an opening for a light bar.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Sport"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "condition",
+              "complete": true
+            },
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 6 months before 19 Oct 2026",
+              "quote": "If you do not have this opening, you would need to purchase the TRD Pro grille from Toyota.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Sport"
+              ],
+              "years": [
+                2025
+              ],
+              "polarity": "condition",
+              "complete": true
+            },
+            {
+              "source": "DD-GRILLE",
+              "location": "Q&A, about 4 months before 19 Oct 2026",
+              "quote": "This was confirmed for OEM grilles only, so we cannot confirm fitment on an aftermarket grille - sorry!",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "info",
+              "complete": true
+            }
+          ],
+          "caveat": "Downgraded in the 19 Oct 2026 audit (related-trim generalisation). Maker requirement, for reference: a grille with a light-bar opening; aftermarket grilles not confirmed.",
+          "gap": "Does this trim's factory grille have the light-bar mounting provisions and opening the kit needs? Diode says the TRD Sport grille does not; it hasn't said for this trim."
+        }
+      }
+    },
+    {
+      "id": "dd-ss5-crosslink",
+      "brand": "Diode Dynamics",
+      "name": "SS5 Grille CrossLink Lightbar Kit",
+      "category": "Grille light bars",
+      "partNumbers": [
+        "DD8026P (bracket kit)",
+        "DD8027-DD8030 (complete kits)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "DD-SS5",
+      "productNotes": [
+        "Maker note: \"If equipped with a front camera, this kit may partially block the camera view.\"",
+        "The browser title says 2024-2025; the page heading and fitment section say 2024-2026."
+      ],
+      "cells": {},
+      "extraEntries": [
+        {
+          "vehicle": "Toyota 4Runner (6th gen)",
+          "years": [
+            2026
+          ],
+          "trim": "Trim not stated",
+          "configuration": "Any / not specified",
+          "status": "mfr-no",
+          "claim": "The maker states this kit is not compatible with the 2026 Toyota 4Runner.",
+          "evidence": [
+            {
+              "source": "DD-SS5",
+              "location": "Q&A, about 1 month before 19 Oct 2026",
+              "quote": "No, this kit is not compatible with the 2026 Toyota 4Runner.",
+              "addresses": "fitment",
+              "trims": [
+                "*"
+              ],
+              "years": [
+                2026
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ]
+        }
+      ],
+      "defaultGap": "Diode lists the Tacoma 2024-2026 without naming or excluding any Tacoma trim. (It does say the kit is not compatible with the 2026 4Runner.)"
+    },
+    {
+      "id": "bd-s2-pocket",
+      "brand": "Baja Designs",
+      "name": "S2 Sport Dual Fog Pocket Light Kit",
+      "category": "Fog lights",
+      "partNumbers": [
+        "Install sheets 448238, 448259 (retail SKU not shown on the page)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "BD-POCKET",
+      "productNotes": [
+        "Baja's installation sheets were not read; they may contain trim details."
+      ],
+      "cells": {
+        "TRD Pro": {
+          "status": "mfr-no",
+          "claim": "The maker states this kit will not work on TRD Pro models.",
+          "evidence": [
+            {
+              "source": "BD-POCKET",
+              "location": "Product page note",
+              "quote": "NOTE: This kit will NOT work on TRD Pro models.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-COMPLETEWEB",
+              "claim": "The fitment list includes \"2024 Toyota Tacoma TRD Pro\", while the same page says the kit \"will Not work on TRD Pro models\". The 15 Oct pilot matched this listing to Baja install sheet 448238; the retailer's product title differs from Baja's."
+            }
+          ]
+        },
+        "Trailhunter": {
+          "status": "unverified",
+          "claim": "This page does not mention the Trailhunter. It lists \"FITS Toyota Tacoma 2024-2026\" and excludes only the TRD Pro.",
+          "evidence": [
+            {
+              "source": "BD-POCKET",
+              "location": "Product page",
+              "quote": "FITS Toyota Tacoma 2024-2026",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "info",
+              "complete": true
+            },
+            {
+              "source": "BD-POCKET",
+              "location": "Product page note",
+              "quote": "NOTE: This kit will NOT work on TRD Pro models.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "no",
+              "complete": true
+            },
+            {
+              "source": "BD-SPORT-PRO",
+              "location": "Product page note on a different (Pro/Trailhunter) kit, shown for context",
+              "quote": "NOTE: This kit fits the TRD Pro/Trailhunter models only.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro",
+                "Trailhunter"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ],
+          "caveat": "Was 'Conflicting' until the 19 Oct 2026 audit. The tension is only implied: Baja sells separate Pro/Trailhunter fog kits, but no page says this kit does or doesn't fit the Trailhunter.",
+          "gap": "Does this kit fit the Trailhunter? This page doesn't mention it. Baja's separate Pro/Trailhunter kits say they fit \"the TRD Pro/Trailhunter models only\"."
+        }
+      },
+      "defaultGap": "This page excludes only the TRD Pro and lists \"Tacoma 2024-2026\"; Baja hasn't named this trim either way."
+    },
+    {
+      "id": "bd-s2-sae",
+      "brand": "Baja Designs",
+      "name": "S2 SAE OEM Fog Light Replacement Kit",
+      "category": "Fog lights",
+      "partNumbers": [
+        "Install sheets 448239, 448240 (retail SKU not shown on the page)"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "BD-SAE",
+      "productNotes": [
+        "Baja's installation sheets were not read; they may contain trim details.",
+        "Diode separately states the SR has no factory fog lamps. That is not used to classify this Baja replacement kit, because Baja doesn't say so itself."
+      ],
+      "cells": {
+        "TRD Pro": {
+          "status": "mfr-no",
+          "claim": "The maker states this kit will not work on TRD Pro models.",
+          "evidence": [
+            {
+              "source": "BD-SAE",
+              "location": "Product page note",
+              "quote": "NOTE: This kit will NOT work on TRD Pro models.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "no",
+              "complete": true
+            }
+          ]
+        },
+        "Trailhunter": {
+          "status": "unverified",
+          "claim": "This page does not mention the Trailhunter. It lists \"FITS Toyota Tacoma 2024-2026\" and excludes only the TRD Pro.",
+          "evidence": [
+            {
+              "source": "BD-SAE",
+              "location": "Product page",
+              "quote": "FITS Toyota Tacoma 2024-2026",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "info",
+              "complete": true
+            },
+            {
+              "source": "BD-SAE",
+              "location": "Product page note",
+              "quote": "NOTE: This kit will NOT work on TRD Pro models.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "no",
+              "complete": true
+            },
+            {
+              "source": "BD-SAE-PRO",
+              "location": "Product page note on a different (Pro/Trailhunter) kit, shown for context",
+              "quote": "NOTE: This kit fits the TRD Pro/Trailhunter models only.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro",
+                "Trailhunter"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ],
+          "caveat": "Was 'Conflicting' until the 19 Oct 2026 audit. The tension is only implied: Baja sells separate Pro/Trailhunter fog kits, but no page says this kit does or doesn't fit the Trailhunter.",
+          "gap": "Does this kit fit the Trailhunter? This page doesn't mention it. Baja's separate Pro/Trailhunter kits say they fit \"the TRD Pro/Trailhunter models only\"."
+        }
+      },
+      "defaultGap": "This page excludes only the TRD Pro and lists \"Tacoma 2024-2026\"; Baja hasn't named this trim either way."
+    },
+    {
+      "id": "bd-s2-sport-pro",
+      "brand": "Baja Designs",
+      "name": "S2 Sport OEM Fog Light Replacement Kit, TRD Pro/Trailhunter",
+      "category": "Fog lights",
+      "partNumbers": [
+        "Not shown on the product page"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "BD-SPORT-PRO",
+      "defaultRef": "only-pro-th-no",
+      "productNotes": [],
+      "cells": {
+        "TRD Pro": {
+          "ref": "only-pro-th-yes"
+        },
+        "Trailhunter": {
+          "ref": "only-pro-th-yes"
+        }
+      },
+      "refs": {
+        "only-pro-th-yes": {
+          "status": "mfr-yes",
+          "claim": "The maker names the TRD Pro and Trailhunter as the models this kit fits.",
+          "evidence": [
+            {
+              "source": "BD-SPORT-PRO",
+              "location": "Product page note",
+              "quote": "NOTE: This kit fits the TRD Pro/Trailhunter models only.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro",
+                "Trailhunter"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ]
+        },
+        "only-pro-th-no": {
+          "status": "mfr-no",
+          "claim": "Excluded by the maker's \"TRD Pro/Trailhunter models only\" note.",
+          "evidence": [
+            {
+              "source": "BD-SPORT-PRO",
+              "location": "Product page note",
+              "quote": "NOTE: This kit fits the TRD Pro/Trailhunter models only.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro",
+                "Trailhunter"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bd-s2-sae-pro",
+      "brand": "Baja Designs",
+      "name": "S2 SAE OEM Fog Light Replacement Kit, TRD Pro/Trailhunter",
+      "category": "Fog lights",
+      "partNumbers": [
+        "Not shown on the product page"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "BD-SAE-PRO",
+      "defaultRef": "only-pro-th-no",
+      "productNotes": [],
+      "cells": {
+        "TRD Pro": {
+          "ref": "only-pro-th-yes"
+        },
+        "Trailhunter": {
+          "ref": "only-pro-th-yes"
+        }
+      },
+      "refs": {
+        "only-pro-th-yes": {
+          "status": "mfr-yes",
+          "claim": "The maker names the TRD Pro and Trailhunter as the models this kit fits.",
+          "evidence": [
+            {
+              "source": "BD-SAE-PRO",
+              "location": "Product page note",
+              "quote": "NOTE: This kit fits the TRD Pro/Trailhunter models only.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro",
+                "Trailhunter"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ]
+        },
+        "only-pro-th-no": {
+          "status": "mfr-no",
+          "claim": "Excluded by the maker's \"TRD Pro/Trailhunter models only\" note.",
+          "evidence": [
+            {
+              "source": "BD-SAE-PRO",
+              "location": "Product page note",
+              "quote": "NOTE: This kit fits the TRD Pro/Trailhunter models only.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro",
+                "Trailhunter"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bd-grille-conversion",
+      "brand": "Baja Designs",
+      "name": "S8 10\" Light Bar / S2 Pro TRD Pro Grille Conversion Light Kit",
+      "category": "Grille light bars",
+      "partNumbers": [
+        "Install sheets 448262, 448263 (retail SKU not shown on the page)",
+        "Optional upfitter harness 600101"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "BD-GRILLE-CONV",
+      "defaultRef": "conversion-only",
+      "productNotes": [
+        "Maker: \"This light kit does NOT include grille.\"",
+        "Maker: trimming is required (see Baja's instructions)."
+      ],
+      "cells": {
+        "TRD Pro": {
+          "ref": "factory-pro-unknown"
+        },
+        "Trailhunter": {
+          "ref": "factory-pro-unknown"
+        }
+      },
+      "refs": {
+        "conversion-only": {
+          "status": "unverified",
+          "claim": "Not confirmed for this trim. Baja says the kit is for those who have done the TRD Pro grille conversion \"to their stock Tacoma\"; no trim is named.",
+          "evidence": [
+            {
+              "source": "BD-GRILLE-CONV",
+              "location": "Product page note",
+              "quote": "note: This kit is designed for those that have done the Tacoma TRD Pro grille conversion.",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "condition",
+              "complete": true
+            },
+            {
+              "source": "BD-GRILLE-CONV",
+              "location": "Product page note",
+              "quote": "NOTE: This light kit does NOT include grille.",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "condition",
+              "complete": true
+            }
+          ],
+          "caveat": "Downgraded in the 19 Oct 2026 audit (vehicle-level conditional statement). Maker requirement, for reference: TRD Pro grille conversion (grille not included); trimming required.",
+          "gap": "Does the kit fit this trim after a TRD Pro grille conversion? Baja says the kit is for trucks that have had the conversion and names no trim."
+        },
+        "factory-pro-unknown": {
+          "status": "unverified",
+          "claim": "The page addresses converted stock Tacomas. It says nothing about trucks that came with this grille or trim from the factory.",
+          "evidence": [
+            {
+              "source": "BD-GRILLE-CONV",
+              "location": "Product page note",
+              "quote": "note: This kit is designed for those that have done the Tacoma TRD Pro grille conversion.",
+              "addresses": "fitment",
+              "trims": [],
+              "polarity": "condition",
+              "complete": true
+            }
+          ],
+          "caveat": "Baja sells a separate kit designed for the factory TRD Pro grille. See that product.",
+          "gap": "Does this kit fit a truck that came with this grille from the factory? Baja's page covers converted trucks only and sells a separate kit for the factory TRD Pro grille."
+        }
+      }
+    },
+    {
+      "id": "bd-grille-trd-pro",
+      "brand": "Baja Designs",
+      "name": "S8 10-inch / S2 Pro Grille Light Kit, TRD Pro",
+      "category": "Grille light bars",
+      "partNumbers": [
+        "Install sheets 448253, 448261 (retail SKU not shown on the page)",
+        "Optional upfitter harness 600101"
+      ],
+      "vehicle": "Toyota Tacoma (4th gen)",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "defaultSource": "BD-GRILLE-PRO",
+      "defaultRef": "pro-only-no",
+      "productNotes": [
+        "Maker: trimming is required (see Baja's instructions)."
+      ],
+      "cells": {
+        "TRD Pro": {
+          "status": "mfr-yes",
+          "claim": "The maker states the kit works only for TRD Pro models and is designed for the TRD Pro grille.",
+          "evidence": [
+            {
+              "source": "BD-GRILLE-PRO",
+              "location": "Product page note",
+              "quote": "NOTE: This kit works only for the TRD Pro Models.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro"
+              ],
+              "polarity": "only",
+              "complete": true
+            },
+            {
+              "source": "BD-GRILLE-PRO",
+              "location": "Product page note",
+              "quote": "note: This kit is designed exclusively for the Toyota Tacoma TRD Pro grille.",
+              "addresses": "fitment",
+              "trims": [
+                "TRD Pro"
+              ],
+              "polarity": "yes",
+              "complete": true
+            }
+          ]
+        }
+      },
+      "refs": {
+        "pro-only-no": {
+          "status": "mfr-no",
+          "claim": "Excluded by the maker's \"works only for the TRD Pro Models\" note.",
+          "evidence": [
+            {
+              "source": "BD-GRILLE-PRO",
+              "location": "Product page note",
+              "quote": "NOTE: This kit works only for the TRD Pro Models.",
+              "addresses": "fitment",
+              "onlyTrims": [
+                "TRD Pro"
+              ],
+              "polarity": "only",
+              "complete": true
+            }
+          ],
+          "retailerConflicts": [
+            {
+              "source": "RT-OVERLANDKITTED",
+              "claim": "Specifications say \"2024+ Toyota Tacoma (incl. TRD Pro)\", implying every 2024+ Tacoma."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "notYetCovered": [
+    {
+      "item": "Diode Stealth Bumper Lightbar Kit; Baja S1 Vent Kit; six Baja A-pillar kits",
+      "reason": "The makers publish no trim-specific statement (the only one is a hedged \"should fit\" answer). Entering them would add only 'Unverified' rows."
+    },
+    {
+      "item": "TRD Pro / Trailhunter skid-plate and bumper compatibility",
+      "reason": "Not yet re-verified against current manufacturer pages."
+    },
+    {
+      "item": "Other Tacoma-4Runner shared accessories",
+      "reason": "The evidence found so far is mostly owner reports and retailer listings, not maker statements."
+    },
+    {
+      "item": "Third-generation bed racks on the fourth-generation Tacoma",
+      "reason": "Not yet re-verified; the maker's 2024 and 2026 statements disagree and need a fresh check."
+    },
+    {
+      "item": "Roof racks with caps and canopies",
+      "reason": "Only owner questions found so far; no manufacturer statements gathered."
+    }
+  ]
+}
