@@ -1,6 +1,20 @@
 # Changelog
 
-Every label change, with its previous value. No entry has ever been upgraded. All sources were reopened on 19 Oct 2026.
+Every label change, with its previous value. No entry has ever been upgraded. All sources were reopened on 16 Nov 2026.
+
+## 0.3.2 (16 Nov 2026)
+
+**No label changed.** Counts are unchanged: 6 compatible, 26 not compatible, 1 condition-dependent, 0 conflicting, 59 unverified (92 entries).
+
+Source re-check:
+- All sources were reopened on 16 Nov 2026.
+- Every quoted maker statement is still on its page, word for word.
+- Every maker still lists 2024-2026.
+
+| Entry | What changed | Before |
+|---|---|---|
+| Baja S2 Sport Dual Fog Pocket kit, TRD Pro | Retailer conflict removed, and the source Complete Web Solutions deleted. Its site now states "DEMO ONLY: NOT A REAL STORE", so it isn't a retailer. Label stays Manufacturer-confirmed: not compatible | Showed Complete Web Solutions as a retailer listing the TRD Pro |
+| All sources | "Last checked" dates updated | 19 Oct 2026 |
 
 ## 0.3.1 (20 Oct 2026)
 

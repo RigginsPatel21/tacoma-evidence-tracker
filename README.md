@@ -2,13 +2,13 @@
 
 A non-commercial, evidence-graded compatibility tracker. **No ads, affiliate links, sales or supplier forms.**
 
-**Status:** prototype, version 0.3.1, sources checked 19 Oct 2026 (links re-checked 20 Oct). See `CHANGELOG.md` for every label change and its prior value.
+**Status:** prototype, version 0.3.2, sources checked 16 Nov 2026. See `CHANGELOG.md` for every label change and its prior value.
 
 ## What's in it
 
 - **Scope:** front-end lighting kits from Diode Dynamics and Baja Designs on the 2024–2026 Tacoma, plus the 4Runner statements those makers publish.
 - **Size:** 11 products and 92 entries.
-- **Sources:** 17, all reopened on 19 Oct 2026.
+- **Sources:** 16, all reopened on 16 Nov 2026.
 
 | Evidence label | Entries |
 |---|---|

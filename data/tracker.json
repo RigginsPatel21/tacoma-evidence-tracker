@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Tacoma & 4Runner Accessory Evidence Tracker",
-    "version": "0.3.1-prototype",
-    "lastReviewed": "2026-10-19",
+    "version": "0.3.2-prototype",
+    "lastReviewed": "2026-11-16",
     "scope": "Front-end lighting kits from Diode Dynamics and Baja Designs, 2024-2026 Toyota Tacoma, plus the two 4Runner statements those makers publish on the same pages.",
     "correctionUrl": "https://github.com/RigginsPatel21/tacoma-evidence-tracker/issues/new?template=correction.yml",
     "vehicles": {
@@ -33,7 +33,7 @@
         ]
       }
     },
-    "auditedOn": "2026-10-19"
+    "auditedOn": "2026-11-16"
   },
   "sources": {
     "DD-SS6": {
@@ -41,119 +41,112 @@
       "type": "manufacturer",
       "title": "SS6 LED Fog Light Kit for 2024-2026 Toyota Tacoma (product page, fitment note and Q&A)",
       "url": "https://www.diodedynamics.com/ss6-led-fog-light-kit-for-2024-2026-toyota-tacoma.html",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "DD-SS6-FORUM": {
       "publisher": "Diode Dynamics (manufacturer's sponsor account on Tacoma4G)",
       "type": "manufacturer",
       "title": "NEW! SS6 LED Fog Light Kit | Diode Dynamics (forum thread started by the maker)",
       "url": "https://www.tacoma4g.com/forum/threads/new-ss6-led-fog-light-kit-diode-dynamics.18561/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "DD-FORM": {
       "publisher": "Diode Dynamics",
       "type": "manufacturer",
       "title": "2024-2026 Toyota Tacoma LED Fog Lights (pair) - Form Lighting (product page and Q&A)",
       "url": "https://www.diodedynamics.com/2024-2026-toyota-tacoma-led-fog-lights-pair.html",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "DD-DITCH": {
       "publisher": "Diode Dynamics",
       "type": "manufacturer",
       "title": "Stage Series Backlit Ditch Light Kit for 2024-2026 Toyota Tacoma (product page and Q&A)",
       "url": "https://www.diodedynamics.com/stage-series-backlit-ditch-light-kit-for-2024-2026-toyota-tacoma.html",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "DD-GRILLE": {
       "publisher": "Diode Dynamics",
       "type": "manufacturer",
       "title": "TRD Pro Grille Light Bar Kit for 2024+ Toyota Tacoma (product page and Q&A)",
       "url": "https://www.diodedynamics.com/trd-pro-grille-lightbar-kit-for-2024-2026-toyota-tacoma.html",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "DD-SS5": {
       "publisher": "Diode Dynamics",
       "type": "manufacturer",
       "title": "SS5 Grille CrossLink Lightbar Kit for 2024-2026 Toyota Tacoma (product page and Q&A)",
       "url": "https://www.diodedynamics.com/ss5-grille-crosslink-lightbar-kit-for-2024-2026-toyota-tacoma.html",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "BD-POCKET": {
       "publisher": "Baja Designs",
       "type": "manufacturer",
       "title": "Toyota S2 Sport Dual Fog Pocket Light Kit - Toyota 2024-2026 Tacoma",
       "url": "https://www.bajadesigns.com/products/toyota-s2-sport-dual-fog-pocket-light-kit-toyota-2024-on-tacoma/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "BD-SAE": {
       "publisher": "Baja Designs",
       "type": "manufacturer",
       "title": "Toyota S2 SAE OEM Fog Light Replacement Kit - Toyota 2024-2026 Tacoma",
       "url": "https://www.bajadesigns.com/products/toyota-s2-sae-oem-fog-light-replacement-kit-toyota-2024-on-tacoma/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "BD-SPORT-PRO": {
       "publisher": "Baja Designs",
       "type": "manufacturer",
       "title": "S2 Sport OEM Fog Light Replacement Kit - 2024-2026 Toyota Tacoma Pro/Trailhunter",
       "url": "https://www.bajadesigns.com/products/s2-sport-oem-fog-light-replacement-kit-2024-on-toyota-tacoma-note-trd-pro-trailhunter/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "BD-SAE-PRO": {
       "publisher": "Baja Designs",
       "type": "manufacturer",
       "title": "S2 SAE OEM Fog Light Replacement Kit - 2024-2026 Toyota Tacoma Pro/Trailhunter",
       "url": "https://www.bajadesigns.com/products/s2-sae-oem-fog-light-replacement-kit-2024-on-toyota-tacoma-note-trd-pro-trailhunter/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "BD-GRILLE-CONV": {
       "publisher": "Baja Designs",
       "type": "manufacturer",
       "title": "Toyota S8 10\" Light Bar / S2 Pro TRD Pro Grille Conversion Light Kit - 2024-2026 Toyota Tacoma",
       "url": "https://www.bajadesigns.com/products/toyota-s8-10-light-bar-s2-pro-trd-pro-grille-conversion-light-kit-2024-on-toyota-tacoma/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "BD-GRILLE-PRO": {
       "publisher": "Baja Designs",
       "type": "manufacturer",
       "title": "S8 10-inch/S2 Pro Grille Light Kit - 2024-2026 Toyota Tacoma; TRD Pro",
       "url": "https://www.bajadesigns.com/products/s8-10-inch-s2-pro-grille-light-kit-2024-on-toyota-tacoma-trd-pro/",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "RT-SPPOWER": {
       "publisher": "sp-power (retailer)",
       "type": "retailer",
       "title": "Diode Dynamics 2024 Toyota Tacoma SS6 LED Fog Light Kit (fitment table)",
       "url": "https://store.sp-power.com/products/diode-dynamics-2024-toyota-tacoma-ss6-led-fog-light-kit-amber-wide",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "RT-TURNIN": {
       "publisher": "Turn In Concepts (retailer)",
       "type": "retailer",
       "title": "Diode Dynamics 2024-2026 Toyota Tacoma TRD Grille Lightbar (fitment table)",
       "url": "https://turninconcepts.com/products/diode-dynamics-2024-2026-toyota-tacoma-trd-grille-lightbar-ss20-pro-white-driving-6000k",
-      "checked": "2026-10-19"
-    },
-    "RT-COMPLETEWEB": {
-      "publisher": "Complete Web Solutions (retailer)",
-      "type": "retailer",
-      "title": "2024-Present Toyota Tacoma S2 Sport OEM Fog Light Replacement Kit - Baja Designs (fitment list)",
-      "url": "https://www.completewebsol.com/product/2024-present-toyota-tacoma-s2-sport-oem-fog-light-replacement-kit-baja-designs",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "RT-OVERLANDKITTED": {
       "publisher": "Overland Kitted (retailer)",
       "type": "retailer",
       "title": "Baja Designs S8/S2 Pro 10in Grille Kit - 2024+ Toyota Tacoma (specifications)",
       "url": "https://overlandkitted.com/products/baja-designs-2024-toyota-tacoma-incl-trd-pro-10in-s8-s2-pro-grille-kit-baja-amber",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     },
     "DD-DITCH-4R": {
       "publisher": "Diode Dynamics",
       "type": "manufacturer",
       "title": "Stage Series Backlit Ditch Light Kit for 2025-2026 Toyota 4Runner (product page)",
       "url": "https://www.diodedynamics.com/stage-series-backlit-ditch-light-kit-for-2026-toyota-4runner.html",
-      "checked": "2026-10-19"
+      "checked": "2026-11-16"
     }
   },
   "products": [
@@ -787,12 +780,6 @@
               ],
               "polarity": "no",
               "complete": true
-            }
-          ],
-          "retailerConflicts": [
-            {
-              "source": "RT-COMPLETEWEB",
-              "claim": "The fitment list includes \"2024 Toyota Tacoma TRD Pro\", while the same page says the kit \"will Not work on TRD Pro models\". The 15 Oct pilot matched this listing to Baja install sheet 448238; the retailer's product title differs from Baja's."
             }
           ]
         },
